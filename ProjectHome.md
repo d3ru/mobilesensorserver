@@ -1,0 +1,3 @@
+Current JAVA-based applications running on a mobile phone device can not access to all capabilities the phone has mainly due to lack of libraries.<br />
+As specific sensor data on a S60 mobile phone can not be read or controlled with JME application-such as accelerometer data (if it is available), GSM data,etc-a python XML/RPC server is developed. The data are available of the server and a remote/local application can send a request to the server and reads the requested data. PyS60 (Python for S60 series) is more powerful compare with JME, and can be easily extended by combing it with Symbian C++.
+<br /><br />As an example, a JME-application is developed which is running locally, makes a connection to the server and reads the data using XML/RPC protocol.
